@@ -1,0 +1,18 @@
+{
+  "name": "openai-agents",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@latitude-data/telemetry": "^1.1.0",
+    "@openai/agents": "^0.4.1",
+    "@opentelemetry/api": "^1.9.0",
+    "zod": "^4.3.5"
+  }
+}
