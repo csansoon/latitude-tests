@@ -1,0 +1,6 @@
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+
+overrides:
+  '@latitude-data/telemetry': link:../../latitude-llm/packages/telemetry/typescript
